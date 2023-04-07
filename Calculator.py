@@ -1,3 +1,5 @@
+# This is a terminal-based calculator which takes user input and calls functions to operate and returns the user their desired result.
+
 def prompt_menu():
     # User Input
     num1 = float(input("Enter the first number: "))
