@@ -2,4 +2,5 @@
 This repo contains other Python projects I've created.
 
 # Contents
-- Calculator
+- Calculator script
+- Blind corners percentage
