@@ -1,5 +1,3 @@
-# This is a project from Angela Wu's 100 Days of Code Python bootcamp
-
 import random
 
 
@@ -10,17 +8,15 @@ symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
 print('\nWelcome to the password generator!\nPlease input a number for each prompt and you will receive a new password curated to your parameters.\n')
 
-print('\nPlease input a number for how many letters you would like in your password:\n')
+print('\nHow many letters you would like in your password:\n')
 n_lets = int(input('>> '))
-print('\nPlease input a number for how many numbers you would like in your password:\n')
+print('\nHow many numbers you would like in your password:\n')
 n_nums = int(input('>> '))
-print('\nPlease input a number for how many symbols you would like in your password:\n')
+print('\nHow many symbols you would like in your password:\n')
 n_syms = int(input('>> '))
 
 print('\nWould you like the order of the characters randomized? Y or N\n')
 randomizer = input('>> ').capitalize()
-
-total_length = n_lets + n_nums + n_syms
 
 
 new_pass = ''
