@@ -1,4 +1,4 @@
-# A calculator I made in the very early days of learning Python
+# A calculator I made in the very early days of learning Python, the original variation
 # Author: Revan
 
 def prompt_menu():
