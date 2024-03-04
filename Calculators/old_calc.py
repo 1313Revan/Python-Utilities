@@ -1,4 +1,5 @@
-# This is a terminal-based calculator which takes user input and calls functions to operate and returns the user their desired result.
+# A calculator I made in the very early days of learning Python
+# Author: Revan
 
 def prompt_menu():
     # User Input
