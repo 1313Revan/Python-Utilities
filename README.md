@@ -1,8 +1,7 @@
 # Python-Utilities
-This repo contains other Python projects I've created.
+This repo contains the non-game scripts I've created during my Python education, be they from courses or thought up by myself.
 
-# Contents
-- Calculator
-- Blind Corners Percentage
-- Random Name Grabber
-- Interactive Password Generator
+## Contents
+- Calculators and their evolutions.
+- Dead by Daylight randomization program.
+- Random Password Generator
