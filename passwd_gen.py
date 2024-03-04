@@ -1,3 +1,6 @@
+# A random password generator I made during a Python course with customizable parameters
+# Author: Revan
+
 import random
 
 
