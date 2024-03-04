@@ -1,7 +1,4 @@
-# This is a project from Angela Wu's 100 Days of Code Python bootcamp
-# we followed alongside her in this project #
-
-### come back and change/rewrite script in future ###
+# Evolution 1 of the calculator scripts I've made, followed alongside with Angela Wu during creation
 
 logo = '''
  _____________________
