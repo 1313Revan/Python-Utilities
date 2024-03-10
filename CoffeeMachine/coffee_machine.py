@@ -1,4 +1,7 @@
-# This is a project from Angela Wu's 100 Days of Code Python bootcamp
+# A project I made during my intermediate Python course
+
+# Author: Revan
+# Date: 3/9/24
 
 from data import MENU, resources
 import sys
