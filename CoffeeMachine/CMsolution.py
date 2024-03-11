@@ -1,4 +1,4 @@
-# This is Angela Wu's solution to the Blackjack project from the Python bootcamp
+# This is Angela Wu's solution to the Coffee Machine project from the Python bootcamp
 
 from data import MENU, resources
 
