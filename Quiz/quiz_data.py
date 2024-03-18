@@ -1,0 +1,87 @@
+question_data = [
+    {"type": "boolean",
+     "difficulty": "medium",
+     "category": "Entertainment: Books",
+     "question": "Originally, the character Charlie from Charlie and the Chocolate Factory was going to be black.",
+     "correct_answer": "True",
+     "incorrect_answers": ["False"]
+     },
+    {"type": "boolean",
+     "difficulty": "medium",
+     "category": "Geography",
+     "question": "The Southeast Asian island of Borneo is politically divided among 3 countries.",
+     "correct_answer": "True",
+     "incorrect_answers": ["False"]
+     },
+    {"type": "boolean",
+     "difficulty": "medium",
+     "category": "Entertainment: Video Games",
+     "question": "Nintendo started out as a playing card manufacturer.",
+     "correct_answer": "True",
+     "incorrect_answers": ["False"]
+     },
+    {"type": "boolean",
+     "difficulty": "easy",
+     "category": "Entertainment: Video Games",
+     "question": "The Indie Game Development Studio Cing, developers of Hotel Dusk and Last Window, went bankrupt "
+                 "on March 1st, 2010.",
+     "correct_answer": "True",
+     "incorrect_answers": ["False"]},
+    {"type": "boolean",
+     "difficulty": "hard",
+     "category": "Entertainment: Video Games",
+     "question": "The Paradox Interactive game &quot;Stellaris&quot; was released in 2016.",
+     "correct_answer": "True",
+     "incorrect_answers": ["False"]
+     },
+    {"type": "boolean",
+     "difficulty": "easy",
+     "category": "Entertainment: Video Games",
+     "question": "In the video game Splatoon, the playable characters were originally going to be "
+                 "rabbits instead of squids.",
+     "correct_answer": "True",
+     "incorrect_answers": ["False"]
+     },
+    {"type": "boolean",
+     "difficulty": "easy",
+     "category": "General Knowledge",
+     "question": "Scotland voted to become an independent country during the referendum from September 2014.",
+     "correct_answer": "False",
+     "incorrect_answers": ["True"]
+     },
+    {"type": "boolean",
+     "difficulty": "easy",
+     "category": "Entertainment: Video Games",
+     "question": "Pac-Man was invented by the designer Toru Iwatani while he was eating pizza.",
+     "correct_answer": "True",
+     "incorrect_answers": ["False"]
+     },
+    {"type": "boolean",
+     "difficulty": "easy",
+     "category": "Science: Mathematics",
+     "question": "The sum of any two odd integers is odd.",
+     "correct_answer": "False",
+     "incorrect_answers": ["True"]
+     },
+    {"type": "boolean",
+     "difficulty": "easy",
+     "category": "Politics",
+     "question": "The 2016 U.S. Presidential Election is the first time Hillary Clinton has run for President.",
+     "correct_answer": "False",
+     "incorrect_answers": ["True"]
+     },
+    {"type": "boolean",
+     "difficulty": "medium",
+     "category": "Science & Nature",
+     "question": "The Neanderthals were a direct ancestor of modern humans.",
+     "correct_answer": "False",
+     "incorrect_answers": ["True"]
+     },
+    {"type": "boolean",
+     "difficulty": "medium",
+     "category": "Science & Nature",
+     "question": "Like with the Neanderthals, Homo sapiens also interbred with the Denisovans.",
+     "correct_answer": "True",
+     "incorrect_answers": ["False"]
+     }
+]
