@@ -1,20 +1,7 @@
 from turtle import *
 from random import choice
 
-# import colorgram
-#
-# colors = colorgram.extract("hirst_dots.jpg", 15)
-# rgb_colors = []
-# for color in colors:
-#     r = color.rgb.r
-#     g = color.rgb.g
-#     b = color.rgb.b
-#     extracted_color = (r, g, b)
-#     rgb_colors.append(extracted_color)
-#
-# print(rgb_colors)
-
-rgb_list = [(124, 180, 210), (198, 174, 16), (29, 119, 167), (176, 14, 45), (235, 150, 76),
+rgb_list = [(124, 180, 210), (198, 174, 16), (29, 119, 167), (176, 14, 45), (235, 150, 76), (145, 171, 219),
             (236, 204, 90), (217, 124, 163), (26, 144, 74), (215, 80, 123), (9, 171, 210), (212, 61, 27)]
 
 draw = Turtle()
