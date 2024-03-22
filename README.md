@@ -7,3 +7,4 @@ This repo contains the non-game scripts I've created during my Python education,
 - Random Password Generator
 - Coin-operated Coffee Machine software
 - Quizzing software
+- Girlfriend's Birthday Script
