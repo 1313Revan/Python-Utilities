@@ -3,7 +3,6 @@
 
 # A randomization script I made for Dead by Daylight custom games with the friends & family
 # Author: Revan
-# Date: 3/3/24
 
 import random
 import dbd_art as art
