@@ -1,7 +1,7 @@
 #!usr/bin/env python3
 # coding: utf-8
 
-# A randomization script I made for Dead by Daylight custom games with the friends & family
+# A randomization script I made for Dead by Daylight custom games with the friends & family during the early days of my learning
 # Author: Revan
 
 import random
