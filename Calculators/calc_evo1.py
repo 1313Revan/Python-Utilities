@@ -1,4 +1,4 @@
-# Evolution 1 of the calculator scripts I've made, followed alongside with Angela Wu during creation
+# Evolution 1 of the calculator scripts I've made, followed alongside with Angela Yu during creation
 
 logo = '''
  _____________________
