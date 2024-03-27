@@ -113,7 +113,7 @@ def get_player():
 def get_killer():
     '''Function to generate a random killer to play.'''
     system('clear')
-    chosen_k = random.choice(all_killers)
+    chosen_k = random.choice(killer_list)
     print(f'\nYour killer is: {chosen_k}\n')
     print('\nPlease select an option:\n')
     print('\n1. Regenerate Killer\n2. Remove Killer from Pool\n3. Return\n')
@@ -134,6 +134,7 @@ def get_killer():
         killers()
 def reset_list():
     '''Function to reset the killer pool.'''
+    global killer_list
     system('clear')
     killer_list = all_killers.copy()
     print('\nList reset!\n')
