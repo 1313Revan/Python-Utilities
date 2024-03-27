@@ -1,5 +1,5 @@
 # Python-Utilities
-This repo contains the non-game scripts I've created during my Python education, be they from courses or thought up by myself.
+This repo contains Python scripts I've made myself and others that I made while following alongside Angela Yu while taking her bootcamp.
 
 ## Contents
 - Calculators and their evolutions
