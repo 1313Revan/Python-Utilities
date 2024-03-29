@@ -6,3 +6,4 @@ This repo contains Python scripts I've made myself and others that I made while 
 - Random Password Generator
 - Coin-operated Coffee Machine software
 - Quizzing software
+- Hirst Dot Art program
