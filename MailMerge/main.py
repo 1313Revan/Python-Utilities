@@ -15,5 +15,5 @@ with open("./Input/Letters/starting_letter.txt") as template:
         modified_content = template_content.replace("[name]", name)
         file_name = f"letter_to_{name}"
 
-        with open(f"./Output/ReadyToSend/{file_name}", "w") as letter:
+        with open(f"./Output/ReadyToSend/{file_name}".replace(" ", "_"), "w") as letter:
             letter.write(modified_content)
