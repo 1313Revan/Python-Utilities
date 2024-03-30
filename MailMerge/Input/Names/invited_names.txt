@@ -4,5 +4,5 @@ Appa
 Katara
 Sokka
 Momo
-Uncle_Iroh
+Uncle Iroh
 Toph
