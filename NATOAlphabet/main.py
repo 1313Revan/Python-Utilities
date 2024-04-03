@@ -1,3 +1,6 @@
+# Enter a word to the text prompt, and you'll receive the NATO code words for each letter of the word
+# Useful for when you need to spell something out over the phone for example
+
 import pandas
 
 nato_alphabet = pandas.read_csv("nato_phonetic_alphabet.csv")
