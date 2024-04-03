@@ -7,3 +7,4 @@ This repo contains Python scripts I've made myself and others that I made while 
 - Coin-operated Coffee Machine software
 - Quizzing software
 - Hirst Dot Art program
+- Mail Merge program
