@@ -9,3 +9,4 @@ This repo contains Python scripts I've made myself and others that I made while 
 - Hirst Dot Art program
 - Mail Merge program
 - NATO Alphabet Converter
+- Pomodoro Timer
