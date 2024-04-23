@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 from random import choice, randint, shuffle
 import pyperclip
+import json
 
 
 # ========== RANDOM PASSWORD ========== #
@@ -35,21 +36,20 @@ def write_data():
     website_name = website_field.get()
     email_username = email_user_field.get()
     site_password = password_field.get()
+    new_data = {
+        website_name: {
+            "email": email_username
+            "password": site_password
+        }
+    }
 
     if len(website_name) == 0 or len(site_password) == 0:
         messagebox.showinfo(title="Error", message="Please fill in the fields before saving!")
     else:
-        save_title = f"Save login for {website_name}?"
-        save_message = (
-            f"Please confirm details entered:\n\nEmail/Username: {email_username}\nPassword: {site_password}\n\n"
-            f"Save info?")
-
-        confirmation = messagebox.askokcancel(title=save_title, message=save_message)
-        if confirmation:
-            with open("info.txt", "a") as data:
-                data.write(f"{website_name}: {email_username} | {site_password}\n")
-                website_field.delete(0, END)
-                password_field.delete(0, END)
+        with open("data.json", "a") as data_file:
+            json.dump(new_data, data_file, indent=4)
+            website_field.delete(0, END)
+            password_field.delete(0, END)
 
 
 # ========== UI SETUP ========== #
