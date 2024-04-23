@@ -46,13 +46,17 @@ def write_data():
     if len(website_name) == 0 or len(site_password) == 0:
         messagebox.showinfo(title="Error", message="Please fill in the fields before saving!")
     else:
-        with open("data.json", "r") as data_file:
-            data = json.load(data_file)
+        try:
+            with open("data.json", "r") as data_file:
+                data = json.load(data_file)
+        except FileNotFoundError:
+            with open("data.json", "w") as data_file:
+                json.dump(new_data, data_file, indent=4)
+        else:
             data.update(new_data)
-
-        with open("data.json", "w") as data_file:
-            json.dump(data, data_file, indent=4)
-            
+            with open("data.json", "w") as data_file:
+                json.dump(data, data_file, indent=4)
+        finally:
             website_field.delete(0, END)
             password_field.delete(0, END)
 
