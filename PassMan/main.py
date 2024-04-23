@@ -38,7 +38,7 @@ def write_data():
     site_password = password_field.get()
     new_data = {
         website_name: {
-            "email": email_username
+            "email": email_username,
             "password": site_password
         }
     }
