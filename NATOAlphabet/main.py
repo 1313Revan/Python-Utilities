@@ -3,25 +3,21 @@
 
 import pandas
 
-nato_alphabet = pandas.read_csv("nato_phonetic_alphabet.csv")
-alphabet_dict = {row.letter: row.code for (index, row) in nato_alphabet.iterrows()}
+data = pandas.read_csv("nato_phonetic_alphabet.csv")
+
+phonetic_dict = {row.letter: row.code for (index, row) in data.iterrows()}
 
 
-def input_word():
-    user_word = input("\nEnter a word: ").upper()
-    code_list = [alphabet_dict[letter] for letter in user_word]
+def generate_output():
+    word = input("\nEnter a word: ").upper()
 
-    print(f"\nHere's your NATO code:\n{code_list}")
-    go_again()
-
-
-def go_again():
-    answer = input("\nWould you like to enter another word? (y/n)\n").lower()
-    if answer == "y" or answer == "yes":
-        input_word()
+    try:
+        output_list = [phonetic_dict[letter] for letter in word]
+    except KeyError:
+        print("Please use letters only.")
+        generate_output()
     else:
-        print("\nGoodbye!")
-        exit()
+        print(f"\n{output_list}")
 
 
-input_word()
+generate_output()
